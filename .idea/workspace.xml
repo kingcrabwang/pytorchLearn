@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6152d41d-6e89-4a73-8805-8fffd0a7e752" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pytorch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_linear_regression_nn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_Logistic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_Multiple_Dimension_InputMultiinput.py" afterDir="false" />
+    <list default="true" id="6152d41d-6e89-4a73-8805-8fffd0a7e752" name="更改" comment="添加05所需数据集">
+      <change afterPath="$PROJECT_DIR$/06_Dataset_DataLoader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kingcrab &lt;zijunwang03@163.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kingcrabwang&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kingcrabwang/pytorchLearn.git&quot;,
+    &quot;accountId&quot;: &quot;34396aac-1ee6-4a48-8e7c-fa00333b308c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -43,6 +55,7 @@
     "Python.03_linear_regression_nn.executor": "Run",
     "Python.04_Logistic.executor": "Run",
     "Python.05_Multiple_Dimension_InputMultiinput.executor": "Run",
+    "Python.06_Dataset_DataLoader.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,7 +78,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05_Multiple_Dimension_InputMultiinput">
+  <component name="RunManager" selected="Python.06_Dataset_DataLoader">
     <configuration name="03_linear_regression_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytorch" />
       <option name="ENV_FILES" value="" />
@@ -116,8 +129,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="06_Dataset_DataLoader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytorch" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_Dataset_DataLoader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06_Dataset_DataLoader" />
         <item itemvalue="Python.05_Multiple_Dimension_InputMultiinput" />
         <item itemvalue="Python.03_linear_regression_nn" />
       </list>
@@ -148,16 +187,71 @@
       <workItem from="1789458716854" duration="3444000" />
       <workItem from="1789564702758" duration="3897000" />
       <workItem from="1789629168657" duration="4449000" />
-      <workItem from="1789737387486" duration="2109000" />
+      <workItem from="1789737387486" duration="2926000" />
+      <workItem from="1789803545843" duration="1374000" />
     </task>
+    <task id="LOCAL-00001" summary="学习多特征输入">
+      <option name="closed" value="true" />
+      <created>1789739548359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789739548359</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加05所需数据集">
+      <option name="closed" value="true" />
+      <created>1789739785033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789739785033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加05所需数据集">
+      <option name="closed" value="true" />
+      <created>1789740205620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789740205620</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="学习多特征输入" />
+    <MESSAGE value="添加05所需数据集" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加05所需数据集" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pytorch$05_Multiple_Dimension_InputMultiinput.coverage" NAME="05_Multiple_Dimension_InputMultiinput 覆盖结果" MODIFIED="1789739161571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytorch$05_Multiple_Dimension_InputMultiinput.coverage" NAME="05_Multiple_Dimension_InputMultiinput 覆盖结果" MODIFIED="1789806500848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch$main.coverage" NAME="main 覆盖结果" MODIFIED="1789630185342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytorch$06_Dataset_DataLoader.coverage" NAME="06_Dataset_DataLoader 覆盖结果" MODIFIED="1789806513973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch$03_linear_regression_nn.coverage" NAME="03_linear_regression_nn 覆盖结果" MODIFIED="1789738194161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch$04_Logistic.coverage" NAME="04_Logistic 覆盖结果" MODIFIED="1789631877155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
